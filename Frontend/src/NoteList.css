@@ -1,0 +1,40 @@
+/* Styles for NoteList component */
+.note-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.note-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.note-text {
+  flex: 1 1 auto;
+  text-align: left;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: #ffffff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  min-width: 36px;
+  font-weight: 600;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+}
+
+.delete-btn:focus {
+  outline: 2px solid rgba(0,0,0,0.08);
+  outline-offset: 2px;
+}
